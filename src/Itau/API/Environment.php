@@ -34,7 +34,7 @@ class Environment
     public static function production()
     {
         return new Environment(
-            'https://sts.itau.com.br/api/oauth/token/api/oauth/token',
+            'https://sts.itau.com.br/api/oauth/token',
             'https://secure.api.itau/pix_recebimentos/v2',
             'https://secure.api.itau/pix_recebimentos_conciliacoes/v2',
             'https://api.itau.com.br/cash_management/v2'
